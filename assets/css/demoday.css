@@ -1,0 +1,292 @@
+html,
+body {
+  font-family: 'Tilda Sans';
+  font-weight: 600;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: top;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+  border: none;
+  font-family: 'Tilda Sans';
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.demo-day {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../img/demo-day/main-bg.png) center / cover no-repeat fixed;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  margin-bottom: 45px;
+}
+
+.demo-day__inner {
+  color: #fff;
+  text-align: center;
+}
+
+.demo-day__description {
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 44px;
+}
+
+.demo-day__name {
+  font-size: 72px;
+  line-height: 1.17;
+  max-width: 1160px;
+  margin-bottom: 69px;
+}
+
+.demo-day__item {
+  padding: 20px 60px;
+  background-color: #1e6d7a;
+  border-radius: 20px;
+  color: white;
+}
+
+.event {
+  margin-bottom: 75px;
+}
+
+.event__inner {
+  font-weight: 300;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.event__description {
+  margin-bottom: 20px;
+}
+
+.event__description,
+.event__sub-description {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.event__sub-description {
+  margin-bottom: 60px;
+}
+
+.event__item {
+  border-radius: 50px;
+}
+
+.speakers {
+  margin-bottom: 75px;
+}
+
+.speakers__title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 105px;
+  font-size: 42px;
+  line-height: 1.23;
+}
+
+.speakers__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+.speakers__list-inner {
+  max-width: 260px;
+}
+
+.speakers__img {
+  width: 254px;
+  height: 254px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.speakers__name {
+  font-size: 22px;
+  line-height: 1.35;
+  margin-bottom: 8px;
+}
+
+.speakers__description {
+  font-size: 14px;
+  line-height: 1.55;
+  color: #7a7a7a;
+  font-weight: 300;
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+.swiper-container {
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+
+.swiper__list {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 32px;
+}
+
+.swiper__list-inner img {
+  max-width: 139px;
+  max-height: 138px;
+}
+
+.swiper__list-inner:nth-child(2) img {
+  width: 200px;
+}
+
+.swiper-container {
+  position: relative;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-85%);
+  z-index: 1000;
+  cursor: pointer;
+  color: black !important;
+  font-size: 20px !important;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+.swiper-pagination-bullet {
+  background: transparent !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: black !important;
+}
+
+.media {
+  margin-bottom: 45px;
+}
+
+.media__inner {
+  text-align: center;
+}
+
+.media__item {
+  margin-bottom: 90px;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.demoday-event__inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.demoday-event__name,
+.demoday-event__sub-name {
+  text-align: center;
+}
+
+.demoday-event__name,
+.demoday-event__sub-name,
+.demoday-event__time-name {
+  font-size: 20px;
+  line-height: 1.55;
+  font-weight: 700;
+}
+
+.prog {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.demoday-event__time-name span,
+.demoday-event__discussions-list-inner,
+.demoday-event__person,
+.demoday-event__moders-list-inner {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.55;
+}
+
+.demoday-event__discussions-list {
+  margin-bottom: 20px;
+}
+
+.demoday-event__discussions-list-inner {
+  list-style: disc;
+}
+
+.demoday-event__person span {
+  text-decoration: underline;
+}
+
+.butt,
+.demoday-event__moders-list {
+  margin-bottom: 20px;
+}
+
+.over-name {
+  text-align: center;
+  padding-top: 50px;
+}

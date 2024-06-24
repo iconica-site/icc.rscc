@@ -1,0 +1,150 @@
+
+
+.img_cover_comp {
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(/assets/img/compound/1.png);
+
+
+
+
+    background-size: cover;
+    width: 100%;
+    /* height: 652px; */
+    height: 50vh;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.img_cover_comp h1 {
+    color: white;
+    font-size: 52px;
+    letter-spacing: .5px;
+    line-height: 1.17;
+    font-weight: 600;
+}
+
+
+
+/**/
+
+.section_people {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 105px;
+    flex-wrap: wrap;
+}
+.section_people div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 300;
+}
+.section_people img {
+    border-radius: 300px;
+    width: 240px;
+    height: 240px;
+}
+.section_people_name {
+    font-size: 20px;
+    margin-top: 30px;
+}
+.section_people_rank {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-top: 8px;
+}
+/**/
+.companies {
+    margin-top: 120px;
+}
+.companies h2 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 120px;
+}
+.companies_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px; 
+    width: 100%;
+    margin: 0 auto;
+}
+.companies_block a{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.companies_block  img {
+    max-width: 250px;
+    width: 100%;
+}
+/**/
+
+.svg_btn {
+    position: absolute;
+    width: 100%;
+    /* top: 420px; */
+    transform: translateY(-60px);
+    /* left: 500px; */
+    display: flex;
+    justify-content: center;
+    animation: anime ease infinite 2s;
+}
+.svg_btn svg {
+    fill: white;
+    cursor: pointer;
+}
+
+
+@keyframes anime{
+    0% {
+        transform: translateY(-60px);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(-60px);
+    }
+}
+
+@media (max-width: 1200px) {
+    .companies_block a {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 960px) {
+    .section_people {
+        gap: 45px;
+    }
+    .companies h2 {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 650px) {
+    .companies_block a {
+        width: 160px;
+        height: 160px;
+    }
+    .img_cover_comp h1 {
+        font-size: 32px;
+    }
+}

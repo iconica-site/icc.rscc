@@ -1,0 +1,261 @@
+html,
+body {
+  font-family: 'Tilda Sans';
+  font-weight: 600;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: top;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+  border: none;
+  /* font-family: 'Tilda Sans'; */
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.ick {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../img/main/main-bg.png) center / cover no-repeat fixed;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.ick__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  transform: scale(1.2);
+  max-width: 800px;
+}
+
+.ick__name {
+  font-size: 52px;
+  line-height: 1.23;
+  margin-bottom: 50px;
+}
+
+.ick__decor-line {
+  max-width: 160px;
+  width: 100%;
+  height: 1px;
+  background: white;
+  margin-bottom: 50px;
+}
+
+.ick__description {
+  font-size: 22px;
+  line-height: 1.55;
+  max-width: 960px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.light-bg-name {
+  font-size: 42px;
+  line-height: 1.23;
+  margin-bottom: 105px;
+  letter-spacing: 2px;
+}
+
+.project {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.project__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project__list-inner {
+  text-align: center;
+  max-width: 260px;
+}
+
+.project__list-img {
+  max-width: 260px;
+  margin-bottom: 27px;
+}
+
+.project__description {
+  font-size: 26px;
+  line-height: 1.23;
+}
+
+.feedback {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../img/main/button-bg.png) center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  margin-bottom: 90px;
+}
+
+.feedback__inner {
+  color: white;
+  text-align: center;
+  max-width: 960px;
+}
+
+.feedback__name {
+  font-size: 48px;
+  line-height: 1.23;
+  margin-bottom: 24px;
+}
+
+.feedback__description {
+  font-size: 24px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 74px;
+  font-weight: 300;
+}
+
+.feedback__form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 960px;
+  margin-bottom: 30px;
+}
+
+.feedback__form input {
+  height: 56px;
+  padding: 0 20px;
+  width: 100%;
+  background: white;
+  border: none;
+}
+
+.feedback__form input:focus {
+  outline: none;
+}
+
+.feedback__form-btn {
+  height: 56px;
+  padding: 0 20px;
+  width: 100%;
+  background: #09346f;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.feedback__form-sub-description {
+  font-size: 15px;
+  line-height: 1.55;
+  font-weight: 300;
+}
+
+.feedback__form-sub-description a {
+  color: rgb(124, 151, 226);
+  text-decoration: underline;
+}
+
+.stages {
+  margin-bottom: 60px;
+}
+
+.stages__inner {
+  text-align: center;
+}
+
+.stages__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 105px;
+}
+
+.stages__list-inner {
+  max-width: 260px;
+}
+
+.stages__icon {
+  max-width: 60px;
+  margin-bottom: 25px;
+}
+
+.stages__list-inner span {
+  font-size: 16px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.stages__name-icon {
+  font-size: 24px;
+  line-height: 1.35;
+  margin-bottom: 15px;
+}
+
+.stages__description-icon {
+  font-size: 15px;
+  line-height: 1.55;
+  font-weight: 300;
+}
+
+.stages__link-project {
+  color: #ffffff;
+  background-color: #1f5bff;
+  padding: 20px 60px;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.footer__inner {
+  text-align: center;
+  max-width: 560px;
+  margin: 0 auto;
+  padding-bottom: 45px;
+}
+
+.footer__name {
+  font-size: 48px;
+  line-height: 1.23;
+  margin-bottom: 30px;
+}
+
+.footer__description {
+  font-size: 18px;
+  line-height: 1.55;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
