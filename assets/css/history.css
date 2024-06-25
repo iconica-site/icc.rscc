@@ -88,4 +88,7 @@
     .section_main_text h5, .section_main_text p {
         font-size: 16px;
     }
+    .img_cover_history h1 {
+        font-size: 32px;
+    }
 }

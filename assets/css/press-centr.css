@@ -118,6 +118,9 @@
         width: 100%;
         font-size: 16px;
     }
+    .img_cover_press h1 {
+        font-size: 32px;
+    }
 }
 
 
