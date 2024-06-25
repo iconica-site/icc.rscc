@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новость "демо-день ИЦК"</title>
+
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/compound.css">
+
+    <style>
+        .ickNews {
+            height: 100vh;
+            background-image: url(/assets/img/news-img/icknews.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-image: -webkit-linear-gradient(top, rgba(19, 8, 242, 0.8), rgba(154, 12, 206, 0.5)), url(/assets/img/news-img/icknews.jpg);
+            background-size: cover;
+
+            display: flex;
+
+            align-items: center;
+
+        }
+
+        .ickNewsBlock {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .ickNewsBlock span {
+            font-size: 52px;
+            color: white;
+            font-weight: 300;
+        }
+
+        .ickNewsBlock h2 {
+            font-size: 52px;
+            color: white;
+            font-weight: 600;
+            padding-top: 60px;
+        }
+
+        .ickNewsBlock p {
+            color: #afafaf;
+            font-size: 30px;
+            font-weight: 300;
+            padding-top: 50px;
+        }
+        .newsAbout {
+            margin-top: 100px;
+        }
+
+        .newsAbout h2 {
+            font-size: 52px;
+            text-align: center;
+        }
+
+        .newsAbout p {
+            font-size: 26px;
+            line-height: 1.45;
+            font-weight: 300;
+            margin: 0 auto;
+            margin-top: 50px;
+            text-align: center;
+            max-width: 1060px;
+            width: 100%;
+        }
+        .newsAboutImgBlock {
+            display: flex;
+            justify-content: space-evenly;
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 50px;
+
+        }
+        .newsAboutImgBlock img {
+            max-width: 360px;
+            width: 100%;
+            height: 360px;
+        }
+
+        .newsAbout2 {
+            background:-webkit-linear-gradient(top, rgba(19, 8, 242, 0.6), rgba(19, 8, 242, 0.9)), url(/assets/img/news-img/fonabout.jpg) ;
+            width: 100%;
+            height: 643px;
+            margin-top: 150px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .newsAbout2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 80px;
+            font-weight: 600;
+        }
+
+        .newsAbout2 span {
+            font-size: 72px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+        .speakers {
+            padding-bottom: 80px;
+        }
+
+        .speakers h2 {
+            font-size: 42px;
+            text-align: center;
+            margin-top: 100px;
+            padding-bottom: 100px;
+        }
+        .speakersBlock {
+            max-width: 1200px;
+            width: 100%;
+
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+
+            gap: 100px;
+            justify-content: center;
+            text-align: center;
+        }
+        .speakersBlock div img {
+            width: 250px;
+            height: 250px;
+            border-radius: 500px;
+        }
+        .speakersBlock div h4 {
+            font-size: 22px;
+            padding-top: 15px;
+        }
+
+        .speakersBlock div p {
+            font-size: 14px;
+            color: #7a7a7a;
+            padding-top: 7px;
+        }
+
+
+
+        @media (max-width:1200px) {
+            .ickNewsBlock {
+                max-width: 900px;
+            }
+            .newsAboutImgBlock img{
+                height: 320px;
+                object-fit: cover;
+            }
+        }
+
+        @media (max-width:1100px) {
+            .newsAboutImgBlock {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 25px;
+            }
+
+            .newsAbout2 {
+                /* font-size: 68px; */
+                gap: 30px;
+            }
+        }
+
+        @media (max-width:900px) {
+            .ickNewsBlock {
+                max-width: 500px;
+            }
+            .ickNewsBlock span {
+                font-size: 30px;
+            }
+            .ickNewsBlock h2 {
+                font-size: 30px;
+                padding-top: 15px;
+            }
+            .ickNewsBlock p {
+                padding-top: 15px;
+            }
+            .newsAbout {
+                margin-top: 50px;
+            }
+            .newsAbout p {
+                font-size: 22px;
+                margin-top: 25px;
+            }
+
+            .newsAbout2 {
+                flex-direction: column;
+                
+            }
+            .newsAbout2 div span {
+                font-size: 42px;
+            }
+
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="containerNews3">
+        <div class="ickNews">
+            <div class="ickNewsBlock">
+                <span>29 сентября / 2023</span>
+                <h2>Демо-день <br>
+                    ИЦК «Спутниковая связь»</h2>
+                <p>Отраслевая конференция в Астрахани</p>
+            </div>
+        </div>
+
+        <a class="link-target" href="#target2">
+            <div class="svg_btn">
+                <svg role="presentation" class="t-cover__arrow-svg" style="fill:#ffffff;" x="0px" y="0px"
+                    width="38.417px" height="18.592px" viewBox="0 0 38.417 18.592">
+                    <g>
+                        <path
+                            d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+        </a>
+        <div id="target2"></div>
+
+        <div class="newsAbout">
+            <h2>О Демо-дне
+            </h2>
+            <p>Председатель ИЦК «Спутниковая связь» Алексей Волин рассказал о необходимости в современных условиях
+                замещать иностранные продукты отечественными разработками, а также о проектах, которые реализуются в
+                рамках деятельности ИЦК. Один из них касается разработки полезной нагрузки для перспективного
+                отечественного космического аппарата
+
+                «Экспресс-АМУ4»</p>
+            <div class="newsAboutImgBlock">
+                <img src="/assets/img/news-img/people1.png" alt="">
+                <img src="/assets/img/news-img/people2.png" alt="">
+                <img src="/assets/img/news-img/people3.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="newsAbout2">
+            <div>
+                <span>11</span>
+                <span>спикеров</span>
+            </div>
+
+
+            <div>
+                <span>2</span>
+                <span>стартапа</span>
+            </div>
+            <div>
+                <span>400</span>
+                <span>гостей</span>
+            </div>
+        </div>
+
+        <div class="speakers">
+            <h2>Спикеры</h2>
+            <div class="speakersBlock">
+                <div>
+                    <img src="/assets/img/news-img/face1.jpeg" alt="">
+                    <h4>Алексей Волин</h4>
+                    <p>Председатель ИЦК «Спутниковая связь»</p>
+                </div>
+
+                <div>
+                    <img src="/assets/img/news-img/face2.jpg" alt="">
+                    <h4>Евгений Буйдинов</h4>
+                    <p>Заместитель Генерального директора</p>
+                    <p>ФГУП «Космическая связь»</p>
+                </div>
+                <div>
+                    <img src="/assets/img/news-img/face3.jpg" alt="">
+                    <h4>Павел Татаренко</h4>
+                    <p>Заместитель Председателя ИЦК «Спутниковая связь»</p>
+                </div>
+                <div>
+                    <img src="/assets/img/news-img/face4.png" alt="">
+                    <h4>Юрий Урлич</h4>
+                    <p>Советник Генерального директора</p>
+                    <p>ФГУП «Космическая связь»</p>
+                </div>
+                <div>
+                    <img src="/assets/img/news-img/face5.png" alt="">
+                    <h4>Сергей Плуготаренко</h4>
+                    <p>Генеральный директор</p>
+                    <p>АНО «Цифровая экономика»</p>
+                </div>
+                <div>
+                    <img src="/assets/img/news-img/face6.jpg" alt="">
+                    <h4>Евгений Нестеров</h4>
+                    <p>Генеральный директор АО «РЕШЕТНЁВ»</p>
+                </div>
+                <div>
+                    <img src="/assets/img/news-img/face7.jpg" alt="">
+                    <h4>Олег Иванов</h4>
+                    <p>Генеральный директор ФГБУ «НИИР»</p>
+                </div>
+                <div>
+                    <img src="/assets/img/news-img/face8.png" alt="">
+                    <h4>Павел Черенков</h4>
+                    <p>Генеральный директор</p>
+                    <p>АО «Спутниковая система «Гонец»</p>
+                </div>
+                <div>
+                    <img src="/assets/img/news-img/face9.png" alt="">
+                    <h4>Дмитрий Севастьянов</h4>
+                    <p>Генеральный директор</p>
+                    <p>АО «Газпром космические системы»</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
