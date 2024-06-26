@@ -83,6 +83,12 @@
 
 }
 
+@media (max-width:960px) {
+  .event__description {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 540px) {
   .ick__name {
     font-size: 27px;
